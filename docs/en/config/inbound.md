@@ -65,8 +65,8 @@ The specific configuration content depends on the protocol. See `InboundConfigur
 The underlying transport method is how the current Xray node interfaces with other nodes.
 
 > `tag`: string
->
-> The identifier of this inbound connection, used to locate this connection in other configurations.
+
+The identifier of this inbound connection, used to locate this connection in other configurations.
 
 ::: danger
 When it is not empty, its value must be **unique** among all `tag`s.
