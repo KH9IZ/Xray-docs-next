@@ -2,7 +2,7 @@
 
 Use standard WebSocket to transmit data.
 
-WebSocket connections can be peoxied by other HTTP servers (such as Nginx) or by VLESS fallbacks path.
+WebSocket connections can be proxied by other HTTP servers (such as Nginx) or by VLESS fallbacks path.
 
 ::: tip
 Websocket will recognize the X-Forwarded-For header of the HTTP request to override the source address of the traffic, with a higher priority than the PROXY protocol.
